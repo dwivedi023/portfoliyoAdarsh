@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#homepage{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f15757;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#nav{
+    height: 10vh;
+    width: 70%;
+    position: relative; 
+    padding: 10px 40px;
+    background-color: #2b2b2b;
+    display: flex;
+    margin-left: 130px;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#nav h6{
+    font-size: 20px;
+    font-family: Zen Dots; 
+    /* color: white; */
+    font-weight: 300;
+    padding: 2px 5px;
+    text-transform: capitalize;
+    /* font-size: 1.2rem; */
+    /* font-weight: 300; */
+    line-height: 1.5;
+    color: #555;
+}
+#nav #links{
+    display: flex ;
+    justify-content: space-between;
+}
+#nav #links a{
+    text-decoration: none;
+    font-family: Manrope ExtraBold;
+    font-size: 20px;
+
+}
+#profile {
+    height: 70vh;
+    width: 100%;
+    background-color: #962b2b;
+    margin-top: 100px;
+    position: relative;
+    /* left: 50%;  */
+    /* top: 50% ;*/
+   /* transform: translate(-50% ,-50%); */
+}
+.aboutsection {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutsection h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #609ca9;
+}
+
+.aboutsection h3 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #efdcdc;
+    font-family : "gilroy"  ; 
+}
+
+#profile .imgcontainer {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid rgb(154, 154, 237);
+    background-color: #f0a1a1;
+    left: 50%; 
+    transform: translate(-50% ,0%);
+}
+
+
+.aboutsection h1{
+    font-family: Manrope ExtraBold;
+}
